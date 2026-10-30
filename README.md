@@ -1,35 +1,10 @@
-# Simple Interest Calculator
+# This is the README.md file for the **github-final-project**
 
-A small Bash script that calculates **simple interest** from the values you type in.
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-## Formula
-
-```
-I = P x r x t
-```
-
-| Symbol | Meaning |
-|--------|---------|
-| **I** | Interest earned or paid |
-| **P** | Principal (the starting amount of money) |
-| **r** | Annual interest rate, as a decimal (5% = 0.05) |
-| **t** | Time in years |
-
-## Example
-
-If you invest **$1,000** at **5%** per year for **3 years**:
-
-```
-I = 1000 x 0.05 x 3 = 150
-```
-
-The simple interest is **$150**.
-
-## How to use
-
-```bash
-chmod +x simple-interest.sh
-./simple-interest.sh
-```
-
-The script asks for the principal, the rate (in %) and the time (in years), and then prints the interest.
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r/100
